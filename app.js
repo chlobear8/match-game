@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //create board
   function createBoard() {
     for (let i=0; i < cardArray.length; i++) {
-      var card = document.createElement('img')
+      let card = document.createElement('img')
       card.setAttribute('src', 'imgs/block.png')
       card.setAttribute('data-id', i)
       //card.addEventListener('click', flipCard)
